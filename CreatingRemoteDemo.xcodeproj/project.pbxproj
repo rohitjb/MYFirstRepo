@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E0F83421F64FCE6004585FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F83411F64FCE6004585FB /* ViewController.swift */; };
 		9E1EFF051F5E413200DC463A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1EFF041F5E413200DC463A /* AppDelegate.swift */; };
-		9E1EFF071F5E413200DC463A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1EFF061F5E413200DC463A /* ViewController.swift */; };
 		9E1EFF0A1F5E413200DC463A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1EFF081F5E413200DC463A /* Main.storyboard */; };
 		9E1EFF0C1F5E413200DC463A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1EFF0B1F5E413200DC463A /* Assets.xcassets */; };
 		9E1EFF0F1F5E413200DC463A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1EFF0D1F5E413200DC463A /* LaunchScreen.storyboard */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E0F83411F64FCE6004585FB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E1EFF011F5E413200DC463A /* CreatingRemoteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreatingRemoteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1EFF041F5E413200DC463A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E1EFF061F5E413200DC463A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E1EFF091F5E413200DC463A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E1EFF0B1F5E413200DC463A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E1EFF0E1F5E413200DC463A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E0F83401F64FCE6004585FB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E0F83411F64FCE6004585FB /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		9E1EFEF81F5E413200DC463A = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +105,8 @@
 		9E1EFF031F5E413200DC463A /* CreatingRemoteDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9E0F83401F64FCE6004585FB /* ViewController */,
 				9E1EFF041F5E413200DC463A /* AppDelegate.swift */,
-				9E1EFF061F5E413200DC463A /* ViewController.swift */,
 				9E1EFF081F5E413200DC463A /* Main.storyboard */,
 				9E1EFF0B1F5E413200DC463A /* Assets.xcassets */,
 				9E1EFF0D1F5E413200DC463A /* LaunchScreen.storyboard */,
@@ -259,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E1EFF071F5E413200DC463A /* ViewController.swift in Sources */,
+				9E0F83421F64FCE6004585FB /* ViewController.swift in Sources */,
 				9E1EFF051F5E413200DC463A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +515,7 @@
 				9E1EFF2B1F5E413200DC463A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E1EFF2C1F5E413200DC463A /* Build configuration list for PBXNativeTarget "CreatingRemoteDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				9E1EFF2E1F5E413200DC463A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E1EFF2F1F5E413200DC463A /* Build configuration list for PBXNativeTarget "CreatingRemoteDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				9E1EFF311F5E413200DC463A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
